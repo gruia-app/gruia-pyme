@@ -30,9 +30,9 @@ Abre en tu navegador: `http://127.0.0.1:8787/`
 
 | Sector | App incluida | Qué resuelve desde el día 1 | Guía y demo en gruia.app |
 | --- | --- | --- | --- |
-| Reformas e instaladores | **ObraControl** | Presupuestos sin llamada tras 3 días, partes de obra y horas extra | [IA para empresas de reformas](https://gruia.app/ia-para-empresas-de-reformas) |
-| Clínica dental y estética | **SillónLibre** | Lista de espera ante anulaciones, bloqueo de solapes y recordatorio 24 h | [IA para clínicas dentales](https://gruia.app/ia-para-clinicas-dentales) |
-| Asesoría fiscal y gestoría | **TrimestreAlDía** | Reclamar tickets del Modelo 303, devolver fotos borrosas y exportar CSV | [IA para asesorías fiscales](https://gruia.app/ia-para-asesorias-fiscales) |
+| Reformas e instaladores | **ObraControl** | Presupuestos sin llamada tras 3 días, partes de obra y horas extra | [IA para empresas de reformas](https://gruia.app/) |
+| Clínica dental y estética | **SillónLibre** | Lista de espera ante anulaciones, bloqueo de solapes y recordatorio 24 h | [IA para clínicas dentales](https://gruia.app/) |
+| Asesoría fiscal y gestoría | **TrimestreAlDía** | Reclamar tickets del Modelo 303, devolver fotos borrosas y exportar CSV | [IA para asesorías fiscales](https://gruia.app/) |
 
 ## Opción 3: ¿Prefieres no pelearte con código y tener tu tarea funcionando en 24 h por 1 €?
 
