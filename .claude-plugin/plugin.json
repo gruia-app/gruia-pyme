@@ -1,0 +1,9 @@
+{
+  "name": "gruia-pyme",
+  "version": "0.1.0",
+  "description": "Instala y adapta en local modulos open-source (MIT) para pymes con Claude o Grok.",
+  "license": "MIT",
+  "skills": [
+    "./skills/instalar-gruia-pyme"
+  ]
+}

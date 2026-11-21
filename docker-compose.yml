@@ -1,0 +1,15 @@
+services:
+  gruia-pyme:
+    build: .
+    container_name: gruia-pyme
+    ports:
+      - "127.0.0.1:8787:8787"
+    environment:
+      GRUIA_HOST: "0.0.0.0"
+      GRUIA_PORT: "8787"
+      GRUIA_AUTH_MODE: "${GRUIA_AUTH_MODE:-local}"
+      GRUIA_COMPANY_NAME: "${GRUIA_COMPANY_NAME:-Mi Empresa}"
+    volumes:
+      - ./data:/app/data
+      - ./backups:/app/backups
+    restart: unless-stopped

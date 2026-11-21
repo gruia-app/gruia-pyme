@@ -1,0 +1,66 @@
+{
+  "slug": "clinica-dental",
+  "title": "SillonLibre",
+  "sector": "Clinica dental y estetica",
+  "landing_url": "https://gruia.app/ia-para-clinicas-dentales",
+  "tagline": "Lista de espera ordenada ante anulaciones de ultima hora y recordatorio 24 h.",
+  "statuses": [
+    "pendiente_confirmar",
+    "hueco_libre",
+    "ofrecido_espera",
+    "cubierto",
+    "atendido"
+  ],
+  "fields": [
+    {
+      "key": "cliente",
+      "label": "Cliente / Contacto",
+      "required": true
+    },
+    {
+      "key": "telefono",
+      "label": "Telefono WhatsApp",
+      "required": false
+    },
+    {
+      "key": "concepto",
+      "label": "Tarea o concepto",
+      "required": true
+    },
+    {
+      "key": "importe_eur",
+      "label": "Importe estimado (EUR)",
+      "required": false
+    },
+    {
+      "key": "notas",
+      "label": "Observaciones",
+      "required": false
+    }
+  ],
+  "whatsapp_template": "Hola {cliente}, desde {empresa} se acaba de liberar un hueco para {concepto}. Quieres que te lo reservemos?",
+  "demo_items": [
+    {
+      "title": "Limpieza + revision anual (Gabinete 1)",
+      "subtitle": "Paciente M.G. · Hueco manana 11:30 por anulacion",
+      "contact": "34611223344",
+      "amount_eur": 85,
+      "status": "hueco_libre",
+      "data": {
+        "cliente": "Paciente M.G.",
+        "concepto": "Limpieza + revision"
+      }
+    },
+    {
+      "title": "Ortodoncia revision mensual",
+      "subtitle": "Paciente L.R. · Pendiente confirmar 24 h",
+      "contact": "34611556677",
+      "amount_eur": 120,
+      "status": "pendiente_confirmar",
+      "data": {
+        "cliente": "Paciente L.R.",
+        "concepto": "Revision ortodoncia"
+      }
+    }
+  ]
+}

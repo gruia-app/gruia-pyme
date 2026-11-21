@@ -1,0 +1,65 @@
+{
+  "slug": "asesoria-fiscal",
+  "title": "TrimestreAlDia",
+  "sector": "Asesoria fiscal y gestoria",
+  "landing_url": "https://gruia.app/ia-para-asesorias-fiscales",
+  "tagline": "Seguimiento de documentacion del Modelo 303, devolucion de fotos borrosas y exportacion CSV.",
+  "statuses": [
+    "pendiente_cliente",
+    "foto_ilegible",
+    "revisado",
+    "exportado"
+  ],
+  "fields": [
+    {
+      "key": "cliente",
+      "label": "Cliente / Contacto",
+      "required": true
+    },
+    {
+      "key": "telefono",
+      "label": "Telefono WhatsApp",
+      "required": false
+    },
+    {
+      "key": "concepto",
+      "label": "Tarea o concepto",
+      "required": true
+    },
+    {
+      "key": "importe_eur",
+      "label": "Importe estimado (EUR)",
+      "required": false
+    },
+    {
+      "key": "notas",
+      "label": "Observaciones",
+      "required": false
+    }
+  ],
+  "whatsapp_template": "Hola {cliente}, en {empresa} nos falta revisar {concepto} para cerrar el trimestre. Nos puedes enviar la factura legible hoy?",
+  "demo_items": [
+    {
+      "title": "Taller Hermanos Ruiz SL · 4T",
+      "subtitle": "Faltan 3 facturas de proveedor con foto borrosa",
+      "contact": "34622334455",
+      "amount_eur": 1450,
+      "status": "foto_ilegible",
+      "data": {
+        "cliente": "Taller Hermanos Ruiz SL",
+        "concepto": "Modelo 303 4T"
+      }
+    },
+    {
+      "title": "Consultoria Norte Autonoma",
+      "subtitle": "Documentacion completa · Lista para exportar CSV",
+      "contact": "34622667788",
+      "amount_eur": 890,
+      "status": "revisado",
+      "data": {
+        "cliente": "Consultoria Norte",
+        "concepto": "Modelo 303 + 130"
+      }
+    }
+  ]
+}

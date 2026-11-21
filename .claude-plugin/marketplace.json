@@ -1,0 +1,10 @@
+{
+  "name": "gruia-pyme-marketplace",
+  "plugins": [
+    {
+      "name": "gruia-pyme",
+      "source": "./.claude-plugin/plugin.json",
+      "description": "Cimientos y modulos MIT para pymes en local."
+    }
+  ]
+}

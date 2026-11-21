@@ -1,0 +1,66 @@
+{
+  "slug": "reformas",
+  "title": "ObraControl",
+  "sector": "Reformas e instaladores",
+  "landing_url": "https://gruia.app/ia-para-empresas-de-reformas",
+  "tagline": "Presupuestos pendientes, avisos a los 3 dias y control de horas extra por obra.",
+  "statuses": [
+    "enviado",
+    "pendiente_llamar",
+    "aceptado",
+    "en_obra",
+    "cerrado"
+  ],
+  "fields": [
+    {
+      "key": "cliente",
+      "label": "Cliente / Contacto",
+      "required": true
+    },
+    {
+      "key": "telefono",
+      "label": "Telefono WhatsApp",
+      "required": false
+    },
+    {
+      "key": "concepto",
+      "label": "Tarea o concepto",
+      "required": true
+    },
+    {
+      "key": "importe_eur",
+      "label": "Importe estimado (EUR)",
+      "required": false
+    },
+    {
+      "key": "notas",
+      "label": "Observaciones",
+      "required": false
+    }
+  ],
+  "whatsapp_template": "Hola {cliente}, te escribimos de {empresa} para revisar el presupuesto de {concepto}. Te viene bien comentarlo 2 minutos hoy?",
+  "demo_items": [
+    {
+      "title": "Reforma integral cocina C/ Alcala",
+      "subtitle": "Carlos Mendez · Presupuesto enviado hace 3 dias",
+      "contact": "34600112233",
+      "amount_eur": 18400,
+      "status": "pendiente_llamar",
+      "data": {
+        "cliente": "Carlos Mendez",
+        "concepto": "Reforma integral cocina"
+      }
+    },
+    {
+      "title": "Cambio caldera y 5 radiadores",
+      "subtitle": "Comunidad Goya 14 · Parte de extras con foto",
+      "contact": "34600445566",
+      "amount_eur": 4250,
+      "status": "en_obra",
+      "data": {
+        "cliente": "Comunidad Goya 14",
+        "concepto": "Caldera y 5 radiadores"
+      }
+    }
+  ]
+}
